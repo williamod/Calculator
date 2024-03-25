@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(53, 53, 53);
+    color: lightgray;
+    height: 100vh;
+}
+
+.button {
+    min-width: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    
+     
+}
+
+.calculator {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100vh;
+    justify-content: stretch;
+    
+    
+}
+
+ 
+
+.buttonRow, .buttonRowFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 6px;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.buttonRowFirst #backspace {
+    flex: 1 2 calc(50% - 5px);
+}
+
+.buttonRow .button,
+.buttonRowFirst #clear,
+.buttonRowFirst #divide {
+    flex: 1 1 calc(25% - 5px);
+}
+
