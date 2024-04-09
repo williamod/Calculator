@@ -22,6 +22,7 @@ body {
 
 #display {
     height: 50px;
+    font-size: 42px;
 }
 
  
@@ -45,3 +46,15 @@ body {
     flex: 1 1 calc(25% - 5px);
 }
 
+.button {
+    background-color: #68F568 ;
+    font-size: 24px;
+}
+
+.operator, #evaluate {
+    background-color: #F56865;
+}
+
+.num {
+    background-color: #6865F5;
+}
