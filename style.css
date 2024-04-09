@@ -16,10 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    height: 100vh;
+    height: 500px;
     justify-content: stretch;
-    
-    
+}
+
+#display {
+    height: 50px;
 }
 
  
